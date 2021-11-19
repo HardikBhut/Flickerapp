@@ -29,6 +29,8 @@ class ViewController: UIViewController,UISearchBarDelegate {
         
     }
     
+    //MARK: - API Methods -
+    
     func getImageData(strimageName : String){
         
         addHUD()
@@ -51,6 +53,8 @@ class ViewController: UIViewController,UISearchBarDelegate {
             }
         }
     }
+    
+    //MARK: - Collectionview Methods -
     
     func CollectionFlowLayout ()
     {
