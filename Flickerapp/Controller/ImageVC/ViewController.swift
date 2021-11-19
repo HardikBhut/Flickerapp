@@ -23,9 +23,6 @@ class ViewController: UIViewController,UISearchBarDelegate {
         
         self.searchDone = true
         
-        //self.collctionview.dataSource = self
-        //self.collctionview.delegate = self
-        
         let cellNib = UINib(nibName: "ImageCC", bundle: nil)
         self.collctionview.register(cellNib, forCellWithReuseIdentifier: "ImageCC")
         getImageData(strimageName: "kittens")
